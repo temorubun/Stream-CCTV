@@ -44,6 +44,20 @@ pip install -r requirements.txt
 python app.py
 ```
 
+### Menggunakan WSL Ubuntu
+
+1. Clone repositori ini
+2. Buka PowerShell sebagai Administrator
+3. Jalankan WSL dengan Ubuntu sebagai root:
+```bash
+wsl -d ubuntu --user root
+```
+4. Di dalam WSL Ubuntu, install dependensi dan jalankan aplikasi:
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
 ## Konfigurasi
 
 Konfigurasi URL RTSP dapat diubah di file `app.py`:
